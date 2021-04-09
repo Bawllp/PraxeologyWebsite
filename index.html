@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+    
+<head>
+  <meta charset='UTF-8'>
+  <title>Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html">Business Plan</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="analysis.html">Analysis</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="comp.html">Competition</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="op.html">Operation</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="registration.html">Funding</a>
+                </div>
+            </div>    
+            
+            <div class="right-side">
+                <div class="brand">
+                    <div>Praxeology</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-content-wrapper">
+    <h1> Business Plan </h1>
+    <h3> Praxeology will be an entirely web-based product. We will plan to follow a typical 5 day work week with technical support being run through a 24 hour email routed to our developers until we can establish a technical support division in the long run. In the short run, we anticipate we will only need to hire three developers. This will likely not change until series A. 
+While we do not anticipate any litigious issues in the market as our product is significantly differentiated, we have accounted for such pitfalls in our ask and built adequate runway. Similarly, cloud services are largely unpredictable and dependent on traffic and have also been accounted for in our runway. 
+CEO Pleasant Ballenger will oversee product development and CFO Jack Ferm will oversee financial operations.
+We will offer a free service with limited customization and search options where revenue will be primarily gained through advertisements. However, much of the functionality of the product will be unlocked through a $50 premium account as this price matches the demand of the market.
+</h3>
+<p> Costs of production:
+Minimal, largely software development
+2 web developers and one systems architect 
+Cloud services
+ $10,000 per month for web services and cloud data service
+For the first year, we want our staff to stay as lean as possible. While more divisions will be necessary in the long run such as human resources and technical support, we need to focus on making a deployable product and minimizing costs.
+Resource Labor Markets:
+The demand for software developers is high so we will have to pay a competitive rate. In Charleston, the range is 53,000-130,000. We intend to pay at the lower end of the median at $65,000 to attract competent employees while ensuring our seed budget stays lean.
+Wages:
+$65,000 for 3 junior developers (median salary for junior developer in Charleston) for the first year.
+Variable costs:
+Eventually will need more developers to handle increased traffic and updates to the product. Of course, the base salary for developers will vary as they will undertake more responsibilities and require raises. As the company grows and users increase, more server space will be necessary for both the frontend site and for the backend data retention.
+Supply:
+Since Praxeology is digitally based, the development of the initial product will maintain required supply for the immediate future. The supply in the market should follow a typical supply curve since the market is relatively saturated (after we fill the void of investor-business connection) with low barriers to entry.
+Demand:
+Given that Praxeology has no exact substitutes, we anticipate that demand will be high. Businesses will always demand investment, such is the nature of economics, meaning that the demand will stay consistent as long as we retain some differentiation. Our market competitors have been seen to have a relatively large demand with Stocktwits having an estimated $15.5M revenue. 
+Equilibrium:
+Equilibrium price appears to be a price of $50 per unit sold while the quantity demanded is an estimate 160,000.
+</p>
+    
+    
+    </div>
+        </body>
+    
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+    
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add('img-darken');
+        })
+        
+            portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('img-darken');
+    
+    });
+    });
+
+</script>
+    
+</html>
