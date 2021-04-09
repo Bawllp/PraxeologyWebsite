@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='en'>
+    
+<head>
+  <meta charset='UTF-8'>
+  <title>About</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+</head>
+
+<body>
+       <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Business Plan</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="analysis.html">Analysis</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="comp.html">Competition</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="op.html">Operation</a>
+                </div>
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="fund.html">Funding</a>
+                </div>
+            </div>    
+            
+            <div class="right-side">
+                <div class="brand">
+                    <div>Praxeology</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>    
+        <div class="content-wrapper">
+            <div class="two-column-wrapper">
+             
+                <div class="about-content-wrapper">
+                    <h1>Seed Ask</h1>
+                    
+                    <p>We are seeking the following amount to maintain through seed round to series A with an estimated time of 18 months.
+Wages: (3 (65,000)) * 1.5 = $292,500
+Cloud Services: 18 (10,000) = $180,000
+Reserves: 3 (26,250) = $78,750
+Total: $551,250
+Therefore, we are seeking an investment of $550,000 investment for 30% stake in our business.
+ </p>
+                    
+
+                </div>
+            </div>
+        </div>
+                
+                
+        
+    </div>
+</body>
+    
+<script>
+    const portfolioItems = document.querySelectorAll('portfolio-item-wrapper')
+    
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            console.log(portfolioItem);
+        })
+    })
+</script>
+</html>
